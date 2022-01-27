@@ -6,40 +6,20 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>javax.enterprise</groupId>
-    <artifactId>cdi-api</artifactId>
+    <!-- 这是项目的坐标 -->
+    <groupId>com.itcast</groupId>
+    <artifactId>Project_Java</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>CDI APIs</name>
-    <description>APIs for JSR-299: Contexts and Dependency Injection for Java EE</description>
-
+    <!-- 这是项目的多个依赖 或者是依赖列表(这个项目的具体的依赖) 依赖于以下的每一条具体的依赖项(元素) -->
     <dependencies>
         <dependency>
-            <groupId>javax.el</groupId>
-            <artifactId>el-api</artifactId>
-            <optional>true</optional>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.jboss.ejb3</groupId>
-            <artifactId>jboss-ejb3-api</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.jboss.interceptor</groupId>
-            <artifactId>jboss-interceptor-api</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.annotation</groupId>
-            <artifactId>jsr250-api</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.inject</groupId>
-            <artifactId>javax.inject</artifactId>
-        </dependency>
     </dependencies>
 
 </project>
