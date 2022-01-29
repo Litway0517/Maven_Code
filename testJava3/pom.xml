@@ -19,6 +19,13 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+
+            <!--
+                这个标签供选择, 默认为false
+                当optional=false时, 其他模块引用这个模块, 就能够看到被引用模块使用了什么jar包
+                相反为true时, 则表示透明, 其他模块看不到本模块使用的jar包
+             -->
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
