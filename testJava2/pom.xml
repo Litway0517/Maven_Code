@@ -48,7 +48,7 @@
                 - provide: 主代码. 测试代码.
                 - runtime: 打包.
              -->
-            <scope>runtime</scope>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
