@@ -39,7 +39,7 @@
         <!-- 设置插件 -->
         <plugins>
 
-            <!-- 具体的插件配置信息 -->
+            <!-- 具体地插件配置信息 -->
             <plugin>
                 <!-- https://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin -->
                 <groupId>org.apache.tomcat.maven</groupId>
