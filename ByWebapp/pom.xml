@@ -2,17 +2,31 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <!-- -->
+    <!-- 这个是pom的模型版本, 不用处理 -->
     <modelVersion>4.0.0</modelVersion>
+    <!-- 打包方式. web工程打包为war. java工程打包为jar -->
     <packaging>war</packaging>
 
+    <!-- 组织id. 往往是域名反写作为id. -->
     <name>ByWebapp</name>
+    <!-- 项目id. 一般是项目的名称 -->
     <groupId>com.itheima</groupId>
+    <!--  -->
     <artifactId>ByWebapp</artifactId>
+    <!-- 版本号. release表示发布版. snapshot表示开发版 -->
     <version>1.0-SNAPSHOT</version>
 
 
+    <!-- 设置当前工程的依赖 -->
     <dependencies>
+
+        <!-- 具体的依赖内容 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 
@@ -33,10 +47,7 @@
                     <port>80</port>
                     <path>/</path>
                 </configuration>
-
-
             </plugin>
-
         </plugins>
 
 
