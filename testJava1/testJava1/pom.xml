@@ -21,6 +21,14 @@
       <artifactId>junit</artifactId>
       <version>4.12</version>
     </dependency>
+
+    <!-- 引用testJava2 -->
+    <dependency>
+      <groupId>com.itheima</groupId>
+      <artifactId>testJava2</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 
 </project>
