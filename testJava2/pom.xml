@@ -15,6 +15,13 @@
         <artifactId>log4j</artifactId>
         <version>1.2.13</version>
     </dependency>
+
+      <!-- testJava2 需要使用 testJava3 -->
+      <dependency>
+          <groupId>com.itheima</groupId>
+          <artifactId>testJava3</artifactId>
+          <version>1.0-SNAPSHOT</version>
+      </dependency>
   </dependencies>
 
 </project>
