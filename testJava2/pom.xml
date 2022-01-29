@@ -34,10 +34,23 @@
                     <artifactId>log4j</artifactId>
                 </exclusion>
             </exclusions>
-
-
-
         </dependency>
+
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.3</version>
+            <!--
+                这里面配置的是适用范围
+                - compile(默认的配置范围): 主代码. 测试代码. 打包.
+                - test: 测试代码.
+                - provide: 主代码. 测试代码.
+                - runtime: 打包.
+             -->
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
