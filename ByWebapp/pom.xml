@@ -17,14 +17,18 @@
     <version>1.0-SNAPSHOT</version>
 
 
-    <!-- 设置当前工程的依赖 -->
+    <!-- 设置当前工程的依赖. 所有依赖的jar包 -->
     <dependencies>
 
-        <!-- 具体的依赖内容 -->
+        <!-- 具体地依赖内容 -->
         <dependency>
+            <!-- 依赖所属的群组id -->
             <groupId>junit</groupId>
+            <!-- 依赖所属的项目id -->
             <artifactId>junit</artifactId>
+            <!-- 以来的版本号 -->
             <version>4.12</version>
+            <!-- 依赖作用的项目目录范围 -->
             <scope>test</scope>
         </dependency>
     </dependencies>
