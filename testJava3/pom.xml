@@ -50,7 +50,6 @@
                         <phase>generate-test-resources</phase>
                     </execution>
                 </executions>
-
             </plugin>
         </plugins>
     </build>
