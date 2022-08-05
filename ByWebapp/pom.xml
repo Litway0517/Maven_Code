@@ -19,7 +19,6 @@
 
     <!-- 设置当前工程的依赖. 所有依赖的jar包 -->
     <dependencies>
-
         <!-- 具体地依赖内容 -->
         <dependency>
             <!-- 依赖所属的群组id -->
@@ -27,7 +26,7 @@
             <!-- 依赖所属的项目id -->
             <artifactId>junit</artifactId>
             <!-- 以来的版本号 -->
-            <version>4.12</version>
+            <version>4.13.1</version>
             <!-- 依赖作用的项目目录范围 -->
             <scope>test</scope>
         </dependency>
@@ -38,7 +37,6 @@
     <build>
         <!-- 设置插件 -->
         <plugins>
-
             <!-- 具体地插件配置信息 -->
             <plugin>
                 <!-- https://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin -->
@@ -53,8 +51,6 @@
                 </configuration>
             </plugin>
         </plugins>
-
-
     </build>
 
 
